@@ -22,7 +22,7 @@ The robot behavior can be defined by selecting from the user interface, among th
 
 CODE EXECUTION AND DEPENDENCIES:
 
-          At first, gitclone the assignment from the link (GIT LINK) inside the /src folder of your ros workspace.The script is coded in python here. We need to make the nodes executable before running the code, using the following commands:
+          At first, gitclone the assignment from the link (https://github.com/NivaBinesh/Research_Track_1_assignment2.git) inside the /src folder of your ros workspace.The script is coded in python here. We need to make the nodes executable before running the code, using the following commands:
           
                   $ chmod +x bug_m.py
                   $ chmod +x bug_m2.py
@@ -47,21 +47,26 @@ CODE EXECUTION AND DEPENDENCIES:
 
 The outputs are attached below for the reference:
 
-- 1, Robot moving to a random destination (chosen from six different coordinates provided).
+- 1, Robot moving to a random destination (chosen from six different coordinates provided):
+ 
+![RANDOM_POINT](https://user-images.githubusercontent.com/84770506/138960244-5378a5ad-7019-4e74-ab66-5ec465ba4538.gif)
 
+![RANDOM_POINT2](https://user-images.githubusercontent.com/84770506/138960287-45797f22-ce57-4f77-8646-ad8bcbb4c3a1.gif)
 
-- 2, Robot reaching a desired position (from the a set choice given to the user).
+- 2, Robot reaching a desired position (from the a set choice given to the user):
 
+![2D](https://user-images.githubusercontent.com/84770506/138960372-e7e44849-7329-4711-a3ed-e3e27fb33272.gif)
 
-- 3, Robot finding a closer wall and start moving along the wall (until the time set by the user).
+- 3, Robot finding a closer wall and start moving along the wall (until the time set by the user):
 
+![12](https://user-images.githubusercontent.com/84770506/138960410-19c83a82-a1b4-4c2f-ade0-152f91c6a86c.gif)
 
-- 4, Robot staying still at the current position for a given time.
-
+![13](https://user-images.githubusercontent.com/84770506/138960429-7bda4e3c-6d57-49c2-8657-21f5dfb5fc64.gif)
 
 
 RQT_graph:
 
+![graph_final](https://user-images.githubusercontent.com/84770506/138960499-53647a58-3fc0-4c48-8853-466c31894637.png)
 
            
  
